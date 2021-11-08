@@ -39,12 +39,11 @@ The purpose of this excercise is to "refactor" existing code, completing the tas
 ## Git
 
 - Successfully cloned started code to local computer and created new 
-Git repository (Challenge1A) to hold reworked code and README.md
-https://github.com/RauchDavis13/Challenge1A.git
+Git repository (Challenge-2) to hold reworked code and README.md
+https://github.com/RauchDavis13/Challenge-2.git
 
 - Successfully created live Git based URL
-https://rauchdavis13.github.io/Challenge1A/
-
+https://rauchdavis13.github.io/Challenge-2a/
 
 ## Thank you's....
 Dustin Erwin (TA)
