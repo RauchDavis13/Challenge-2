@@ -1,18 +1,15 @@
 # Code Refactor Starter Code
 
 
-## Bootcamp Challenge 1
+## Bootcamp Challenge 2
 
-The purpose of this excercise is to "refactor" existing code, completing the tasks as oulined in the "acceptance criteria", create a properly structured README.md file and deploy a live URL to meet the grading requirements
+The purpose of this excercise is to create a ground up webiste featuring a self portfolio of information Aoubt Me, examples of My Work and Contact information.
 
-- Motivation: Test what has been learned through practical application and testing of code refactoring, GitHub repository and committing files
+- Motivation: Utilize skills learned in CSS and HTML in building a website.  In this process, reinforce knowledge learned through practical application of CSS styling and positioning, as well as HTML construction.
 
-- Project: Take the lessons learned from HTML and CSS to review and refractor existing code.  Implement best practices for scout rule, coding, GitHub repository building, README.md construction.
+- Project: Build a ground up website.  Make the theme a "self portfolio" of information About Me, examples of My Work and Contact information.  In each of these sections, make separate <div>'s to contain additional containers, and then is CSS, use Flex styling for use with various media.  Also, made a subsection in the category <div> along the left side to hold the link from the header and align to the sub <div> holding the About Me, My Work, etc.  In the header, I used CSS positioning to fine tune placement of the pic used for aesthetcs, as well as the pic used for the <div> just under the header.  
 
-- Problem Solved: Code has been made more efficient, links tested and fixed, semantic HTML now used for cleaner reading of the code, flow of code has been changed to follow logical sequence of events
-
-- Lessons Learned: How to identify opportunties for streamlining code from skills learned to date in HTML and CSS, use of semantic HTML, following sequential order of code flow, GitHub cloning from one repository then "pushing" to different repository, identify non working links, look for missing code (ex; missing "alt" tabs from <img? element>)
-
+- Lessons Learned: Many...  Positioning certain elements were challenging.  For the header, I wanted to use an existing pic of my motorcycle, but align a slice of it to feature the Harley Davidson emblem and the kayaker.  For the <div> just underneath the header, also had to fine tune positioning to feature a slice of the pic used.  The main <div>'s, the <div> ".side" class and the <div>  
 
 ## Refactoring
 
