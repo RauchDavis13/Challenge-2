@@ -1,4 +1,4 @@
-# Code Refactor Starter Code
+# Sel Portrait
 
 
 ## Bootcamp Challenge 2
@@ -17,11 +17,11 @@
   
   - Main:  Created class .sub-box to divide the page into the sections for the links.  Within these containers, created additional <div>'s which would hold consistent styling.  Each .sub-box has a left side aligned class .side, to feature a right side border and text alignment to the corresponding section to it's right.  Also, the text in .side connectss to the link in the header
 
-  - .info-me:  Worked on picture placement to be just to right of the text and then as the page shrinks, the image expands to see my entire body vs just my head if the page is fully expanded.  Used text-shadown techinques for shadowing/embossing.
+  - .about-me:  Worked on picture placement to be just to right of the text and then as the page shrinks, the image expands to see my entire body vs just my head if the page is fully expanded.  Used text-shadown techinques for shadowing/embossing.
   
-  - .
+  - .my-work:  Split this <div> into 2 sections in a column, with the top section featuring a pic and link to Run-Buddy.  In the lower section, while not populated, additional dives for 4 additional <div>'s have been created for additional exmaples of work.  Vistually, the top section is more prominently shown, while the lower section visually is secondary containing the 4 additional <div>'s for work examples.
 
-  
+  - Footer (.contact-box):  Footer contains .side to have visual continuity to where .side is used in main, and also contains the link to the header.  Made to additional <div>'s to hold actual contact info, and then reuse the code from the header for the links
 
 ## Git
 
@@ -33,6 +33,7 @@ https://github.com/RauchDavis13/Challenge-2.git
 https://rauchdavis13.github.io/Challenge-2a/
 
 ## Thank you's....
-Dustin Erwin (TA)
-Robert Evanik
-Nicholas Perel
+  Dustin Erwin (TA)
+  Robert Evanik
+  Nicholas Perel
+  Adam Howard
