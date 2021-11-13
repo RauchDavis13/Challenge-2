@@ -1,4 +1,4 @@
-# Sel Portrait
+# Self Portrait
 
 
 ## Bootcamp Challenge 2
@@ -9,7 +9,7 @@
 
 - Project: Build a ground up website.  Make the theme a "self portfolio" of information About Me, examples of My Work and Contact information.  Also include links in the header to connect to About Me, My Work and Contact Me.  Include a picture of myself and personalized styling.  Have page's styling be variable to various media.
 
-- Lessons Learned: Many...  Positioning certain elements were challenging.  For the header, I wanted to use an existing pic of my motorcycle, but align a slice of it to feature the Harley Davidson emblem and the kayaker.  For the <div> just underneath the header, also had to fine tune positioning to feature a slice of the pic used.  The main <div>'s ".sub-box" class, the <div> ".side" class and the separate <div>'s for About Me, etc., taught me about positioning elements using Flex styling.  Challenging....  Still not complete, as I need to provide more examples of My Work, however a <div> exists for this already.  I spent too much time focusing on styling vs focusing on the mission.  However, in that process learned more refined shadowing techniques for text-shadow.  Lastly, lesson learned using GitHub.  My first submission somehow wound up containging the README.MD from Challenge 1.  Hence, this resubmission.
+- Lessons Learned: Many...  Positioning certain elements were challenging.  For the header, I wanted to use an existing pic of my motorcycle, but align a slice of it to feature the Harley Davidson emblem and the kayaker.  For the <div> just underneath the header, also had to fine tune positioning to feature a slice of the pic used.  The main <div>'s ".sub-box" class, the <div> ".side" class and the separate <div>'s for About Me, etc., taught me about positioning elements using Flex styling.  Challenging....  Still not complete, as I need to provide more examples of My Work, however a <div> exists for this already.  I spent too much time focusing on styling vs focusing on the mission.  However, in that process learned more refined shadowing techniques for text-shadow.  Lastly, lesson learned using GitHub.  My first submission somehow wound up containging the README.MD from Challenge 1.  Also, didn't realize the code had to be cleaned up.  Hence, this resubmission.
 
 ## Coding
 
