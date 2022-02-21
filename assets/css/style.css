@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #fce138;
+  --primary-color: #38effc;
   --secondary-color: #022e76;
   --tertiary-color: #f4f8fd;  
 }
@@ -137,12 +137,14 @@ section {
 }
 
 .sub-box {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
   margin: 5px;
   border: 3px solid var(--secondary-color);
   max-height: 150%;
   background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 .side {
@@ -171,13 +173,25 @@ section {
   padding: 30px;
   height: 400px;
   border: 2px solid black;
-  background-image: url('../images/aboutMe.jpg');
-  background-origin: initial;
-  background-position-y: 33%;
-  background-position-x: 0%;  
-  background-size: 115%;
-  background-repeat: no-repeat;
+  background-color: var(--tertiary-color);
+  /*background-origin: initial;  background-position-y: 5%;*/
+  object-fit: fill;
+ 
   width: 70%;
+  text-align: right;
+  position: relative;
+  display: inline-flexbox;
+  flex-direction: column;
+ }
+
+.info-image {
+  padding: 2% 5% 0 0;
+  position: absolute;
+  top: 20px;
+  left: 20px; 
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
  }
 
 .my-info h2, p, h3 {
@@ -233,11 +247,50 @@ section {
   flex-wrap: wrap;
 }
 
+.work-secondary {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+ 
+}
+
+.work-two {
+  width: 50%;
+  height: 210px;
+  border: 5px solid var(--secondary-color);
+  position: relative;
+  border-radius: 2px;
+}
+
+.worktwo-text {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(83, 67, 67);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img {
+  margin: 0 15% 0 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 35%;
+}
+
+
 /* FOOTER STYLES START */
 footer {
-  background: var(--primary-color);
-  margin: 50px;
-  padding: 25px;
+  
+  margin: 10px 10px 10px 10px;
+  border: 3px solid var(--secondary-color);
+  width: 95%;
+  position: center;
+  background-color: var(--tertiary-color);
   display: flex;
   justify-content: space-between;
 }
@@ -258,7 +311,7 @@ footer .side {
 footer nav {
   display: flex;
   /*position: absolute; */
-  right 20px;
+  right: 20px;
 }
 
 .contact-box nav ul {
@@ -370,7 +423,10 @@ footer nav {
   section {
     padding: 30px 15px;
   }
+}
 
+
+ 
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
@@ -386,6 +442,9 @@ footer nav {
     width: 100%;
   }
 
+  .trainer {
+    flex: 0 100%;
+  }
 
   .contact-info {
     text-align: center;
@@ -397,5 +456,24 @@ footer nav {
 
   .contact-form {
     order: 3;
+  }
+
+  .my-info {
+    height: auto;
+  }
+
+  .my-info h2 {
+    text-size-adjust: 15px;
+  }
+
+  .side {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .side h1 {
+    text-align: center;
   }
 }
