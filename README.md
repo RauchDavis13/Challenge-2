@@ -30,7 +30,7 @@ Git repository (Challenge-2) to hold reworked code and README.md
 https://github.com/RauchDavis13/Challenge-2.git
 
 - Successfully created live Git based URL
-https://rauchdavis13.github.io/Challenge-2a/
+https://rauchdavis13.github.io/My_Porfolio/
 
 ## Thank you's....
   Dustin Erwin (TA)
